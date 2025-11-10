@@ -1,0 +1,78 @@
+/* Temel Sıfırlamalar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e; /* Koyu Mavi Arka Plan */
+    color: #ffffff; /* Beyaz Yazı Rengi */
+    line-height: 1.6;
+}
+
+/* Başlık (Header) ve Navigasyon */
+header {
+    background-color: #0f0f1b;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8cfffa; /* Açık Mavi/Turkuaz Vurgu */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #8cfffa;
+}
+
+/* Ana Bölüm (Hero) */
+.hero {
+    text-align: center;
+    padding: 100px 5%;
+    background-color: #1a1a2e;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #cccccc;
+}
+
+.btn-primary {
+    background-color: #4b0082; /* Kutos Temasına Uygun Mor */
+    color: #ffffff;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #5d1796;
+}
+
+/* Alt Bilgi (Footer) */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f0f1b;
+    font-size: 14px;
+    margin-top: 50px;
+}
